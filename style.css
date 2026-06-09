@@ -12,18 +12,19 @@
     height: 100%;
     
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    
+.header {
+  width: 100%;
+  background: #141024;
 }
-.header__container{
-display: flex;
-align-items: center;
-justify-content: center;
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
  .nav__list{
     display: flex;
     align-items: center;

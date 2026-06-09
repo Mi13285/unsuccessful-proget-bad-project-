@@ -71,16 +71,20 @@ line-height: 160%;
     align-items: center;  
     color: #FFF;
 }
-.header__logo{
-margin-right: 490px;
-color: #FFF;
-font-family: Jost;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 160%; 
-padding-left: 100px;
+.header__logo {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 700;
 }
+.phone-header__phone {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .baner{
   width: 100%;
  height: 100%;
@@ -96,40 +100,30 @@ background: #141024;
   align-items: center;
   gap: 30px;
 }
-.baner__content{
+.baner__content {
   display: flex;
-    flex-wrap: nowrap; 
-    position: absolute; 
-    bottom: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
 }
-.baner__title{
-    margin: 0;
-    margin-bottom: 20px;
-    margin-left: 380px;
-    color: #FFF;
-font-family: Jost;
-font-size: 70px;
-font-style: normal;
-font-weight: 600;
-line-height: 160%; 
+.baner__title {
+  margin: 0 0 20px 0;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 70px;
+  font-weight: 600;
 }
-.baner__button{
-    padding: 25px 54px;
-    gap: 10px;
-    border-radius: 5px; 
-background: #D52027;
- margin-left: 400px;
-position: absolute;
- left: 1px; 
- top: 300px;
-color:  #FFF;
-text-align: center;
-font-family: Jost;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-  margin-top: 150px;  
+
+.baner__button {
+  display: inline-block;
+  padding: 25px 54px;
+  border-radius: 5px;
+  background: #D52027;
+  color: #FFF;
+  text-decoration: none;
+  font-family: Jost;
+  font-size: 18px;
+  text-align: center;
 }
 .baner__title-text{
     color: #FFF;
@@ -152,23 +146,17 @@ letter-spacing: 0em;
 text-align: left;
 color: rgba(255, 255, 255, 1);
 }
-.baner__image{
- display: flex;  
+.baner__image {
+  max-width: 550px;
+  width: 100%;
 }
-.baner__img{
-  margin-left: 1021px;
- display: flex;
- align-items: center;
-    justify-content: center;
-    width: 783px;
-    height: 783px;
-position: absolute;
-bottom: 80px;
-border-radius:  80px solid rgba(255, 255, 255, 1)
+.baner__img {
+  width: 100%;
+  height: auto;
 }
 .container{
     
-    /* width: 260px; */
+     width: 260px; 
  } 
 .additional-information{
 margin-left:100px;
